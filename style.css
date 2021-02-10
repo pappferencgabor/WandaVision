@@ -1,0 +1,75 @@
+/*:root {
+    --hatter: #000;
+    --menu: #fff;
+    var(--menu)
+}*/
+/*#menu {
+    display:inline;
+}
+#menu ul li {
+    display:inline;
+    padding: 10px;
+}
+*/
+
+body {
+    background-color: gray;
+    width: 100%;
+    padding-top: 10px;
+}
+#cim {
+    color: whitesmoke;
+    background-color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+}
+#evszam {
+    color: whitesmoke;
+    background-color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+}
+#menu {
+    border: 2px solid whitesmoke;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    vertical-align: middle;
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+#menu a {
+    color: blue;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+#tartalom {
+    width: 100%;
+    min-width: calc(100vh - 30px);
+}
+#teaser {
+    padding-top: 10px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    width: 70%;
+    text-align: justify;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
