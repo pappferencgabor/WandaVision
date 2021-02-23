@@ -1,5 +1,8 @@
+* {
+    scroll-behavior: smooth;
+}
 body {
-    background-color: gray;
+    background-color:gray;
     width: 100%;
     padding-top: 10px;
     margin: auto;
@@ -41,4 +44,23 @@ body {
 #menu a:hover {
     color: yellow;
     text-decoration: underline;
+}
+table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+}
+td {
+    width: 25%;
+    color: rgb(36, 36, 36);
+    font-size: 25px;
+}
+img {
+    transition-duration: 1.5s;
+}
+img:hover {
+    width: 85%;
+    cursor: zoom-in;
 }

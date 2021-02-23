@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color:rgb(126, 0, 0);
 }
 img {
     width: 30%;
@@ -17,15 +17,23 @@ a {
     color: lightyellow;
     text-decoration: none;
     font-size: 25px;
-    border: 2px solid white;
-    background-color: darkgreen;
-    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    color: black;
+    padding: 10px;
 }
 a:hover {
-    color: yellow;
     text-decoration: underline;
 }
 #gombok {
     text-align: center;
     margin: auto;
+}
+#igen:hover {
+    background-color: darkgreen;
+}
+#nem:hover {
+    background-color: darkred;
+    color: white;
 }

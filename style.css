@@ -12,7 +12,7 @@
 }
 */
 * {
-    scroll-behavior: smooth;
+    scroll-behavior: initial;
 }
 body {
     background-color: gray;
