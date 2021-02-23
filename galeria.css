@@ -1,3 +1,6 @@
+* {
+    scroll-behavior: smooth;
+}
 body {
     background-color:  rgb(155, 155, 155);
     width: 100%;
@@ -12,7 +15,7 @@ body {
     width: 50%;
     margin: auto;
 }
-#epizodok {
+#galeria {
     color: whitesmoke;
     background-color: rgb(155, 155, 155);
     text-align: center;
@@ -39,4 +42,25 @@ body {
 #menu a:hover {
     color: yellow;
     text-decoration: underline;
+}
+table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+}
+td {
+    width: 25%;
+}
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    transition-duration: 1.5s;
+}
+img:hover {
+    float: left;
+    cursor: zoom-in;
+    width: 110%;
 }
